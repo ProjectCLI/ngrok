@@ -1,0 +1,5 @@
+commands:
+  - \ProjectCLI\Ngrok\Commands\ExposeCommand
+name: projectcli/ngrok
+type: null
+version: v1.0.0
