@@ -44,7 +44,7 @@ class ExposeCommand extends Command
     {
         if ( ! $ngrok->isInstalled()) {
             $this->abort(
-                'Ngrok is not installed. Please check ngrok.com for further instructions.'
+                'ngrok is not installed. Please check ngrok.com for further instructions.'
             );
         }
 
